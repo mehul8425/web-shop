@@ -1,0 +1,64 @@
+<!-- 
+   Mehul Jodhani
+   Date: 30 Jan 2025
+   File: about.html
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | Smartphone Web Shop</title>
+
+    <!-- Linking Bootstrap CSS for styling -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Linking JavaScript file for app logic -->
+    <script defer src="src/client/app/app.js"></script>
+</head>
+<body>
+
+<!-- Header Section -->
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <!-- Logo and Brand Name -->
+        <a class="navbar-brand" href="#">Smartphone Shop</a>
+
+        <!-- Navigation Menu -->
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+                <!-- Navigation Links -->
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="create.html">Add Product</a></li>
+                <li class="nav-item"><a class="nav-link" href="search.html">Products</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<!-- Main Content Section -->
+<main class="container mt-5">
+    <!-- About Me Heading -->
+    <h1>About Me</h1>
+
+    <!-- Profile Picture -->
+    <img src="images/WhatsApp Image 2024-10-24 at 12.00.33_01075f89.jpg" class="img-fluid rounded-circle" alt="Your Profile Picture" width="200px">
+
+    <!-- About Me Description -->
+    <p>Hello! My name is Mehul Jodhani, and I'm a web developer currently working on creating a web shop for smartphones. I plan to seek opportunities in front-end development after graduation. I am passionate about creating engaging user experiences and optimizing web applications for performance.</p>
+</main>
+
+<!-- Footer Section -->
+<footer class="text-center mt-5">
+    <p>&copy; <span id="year"></span> Smartphone Web Shop | Created by Mehul Jodhani</p>
+</footer>
+
+<!-- Script to display the current year dynamically in the footer -->
+<script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
