@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./src/server/index.js"
   },
   "keywords": [],
   "author": "",
@@ -13,10 +13,18 @@
     "bootstrap-icons": "^1.11.3",
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
+    "ejs": "^3.1.10",
     "express": "^4.21.2",
     "express-validator": "^7.2.1",
     "mongoose": "^8.12.1",
+    "navigo": "^8.11.1",
     "winston": "^3.17.0"
   },
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "@webpack-cli/generators": "^3.0.7",
+    "ejs-compiled-loader": "^3.1.0",
+    "webpack": "^5.98.0",
+    "webpack-cli": "^6.0.1"
+  }
 }
